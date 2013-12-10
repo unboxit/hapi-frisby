@@ -1,10 +1,12 @@
 {
-  "name": "api",
+  "name": "API",
   "version": "0.0.1",
   "description": "",
   "main": "index.js",
   "dependencies": {
-    "hapi": "~1.20.0"
+    "hapi": "~1.20.0",
+    "lout": "~0.5.0",
+    "handlebars": "~1.1.2"
   },
   "devDependencies": {
     "frisby": "~0.7.1"
@@ -13,5 +15,5 @@
     "test": ""
   },
   "author": "",
-  "license": "Prorietary"
+  "license": "MIT"
 }
