@@ -22,7 +22,7 @@ $ nodemon index.js
 
 - run test for Development
 ```bash
-$ jasmine-node spec/api/
+$ jasmine-node spec/api/ --watch --autotest
 ```
 
 - run test for CI server
