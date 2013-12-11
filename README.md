@@ -17,16 +17,19 @@ $ npm install
 ### Development and testing
 
 - run server for Development
+
 ```bash
 $ nodemon index.js
 ```
 
 - run test for Development
+
 ```bash
 $ jasmine-node spec/api/ --watch --autotest
 ```
 
 - run test for CI server
+
 ```bash
 $ npm test
 ```
