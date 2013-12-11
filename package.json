@@ -12,7 +12,7 @@
     "frisby": "~0.7.1"
   },
   "scripts": {
-    "test": ""
+    "test": "jasmine-node spec/api/ --junitreport"
   },
   "author": "",
   "license": "MIT"
