@@ -28,6 +28,11 @@ $ jasmine-node spec/api/ --watch --autotest
 
 - run test for CI server
 ```bash
+$ npm test
+```
+or
+
+```bash
 $ jasmine-node spec/api/ --junitreport
 ```
 
