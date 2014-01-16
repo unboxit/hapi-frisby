@@ -1,6 +1,6 @@
 # API
 
-![Codeship Status](https://www.codeship.io/projects/bf0e04e0-44a8-0131-d9d9-0e882a2b5818/status?branch=master)
+![Codeship Status](https://www.codeship.io/projects/a5e2cfd0-609f-0131-b969-6ac6b4d604a9/status?branch=master)
 
 ### Prerequisites
 
