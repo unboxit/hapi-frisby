@@ -1,6 +1,6 @@
 # API
 
-![Codeship Status](https://www.codeship.io/projects/a5e2cfd0-609f-0131-b969-6ac6b4d604a9/status?branch=master)
+[![Codeship Status for unboxit/hapi-frisby](https://codeship.io/projects/3c1add60-e53e-0131-150f-6240fcc21f63/status?branch=master)](https://codeship.io/projects/25726)
 
 ### Prerequisites
 
