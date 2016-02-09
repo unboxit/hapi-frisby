@@ -2,6 +2,10 @@
 
 [![Codeship Status for unboxit/hapi-frisby](https://codeship.io/projects/3c1add60-e53e-0131-150f-6240fcc21f63/status?branch=master)](https://codeship.io/projects/25726)
 
+[![bitHound Overall Score](https://www.bithound.io/github/unboxit/hapi-frisby/badges/score.svg)](https://www.bithound.io/github/unboxit/hapi-frisby)
+[![bitHound Dependencies](https://www.bithound.io/github/unboxit/hapi-frisby/badges/dependencies.svg)](https://www.bithound.io/github/unboxit/hapi-frisby/master/dependencies/npm)
+[![bitHound Dev Dependencies](https://www.bithound.io/github/unboxit/hapi-frisby/badges/devDependencies.svg)](https://www.bithound.io/github/unboxit/hapi-frisby/master/dependencies/npm)
+[![bitHound Code](https://www.bithound.io/github/unboxit/hapi-frisby/badges/code.svg)](https://www.bithound.io/github/unboxit/hapi-frisby)
 ### Prerequisites
 
 - install prerequisites
