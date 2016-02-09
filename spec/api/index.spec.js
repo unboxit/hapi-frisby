@@ -1,3 +1,5 @@
+"use strict";
+
 var frisby = require("frisby");
 
 frisby.create("hello world")

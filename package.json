@@ -4,12 +4,13 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
-    "hapi": "~1.20.0",
-    "lout": "~0.5.0",
-    "handlebars": "~1.1.2"
+    "hapi": "~13.0.0",
+    "lout": "~8.1.1",
+    "handlebars": "~4.0.5"
   },
   "devDependencies": {
-    "frisby": "~0.7.1"
+    "frisby": "~0.8.5",
+    "jasmine-node": "^1.14.5"
   },
   "scripts": {
     "test": "jasmine-node spec/api/ --junitreport"
