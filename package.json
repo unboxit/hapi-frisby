@@ -4,16 +4,20 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
-    "hapi": "~13.0.0",
-    "lout": "~8.1.1",
-    "handlebars": "~4.0.5"
+    "hapi": "~13.0.0"
   },
   "devDependencies": {
     "frisby": "~0.8.5",
-    "jasmine-node": "^1.14.5"
+    "inert": "^3.2.0",
+    "joi": "^8.0.3",
+    "lout": "^9.0.0",
+    "vision": "^4.0.1"
   },
   "scripts": {
-    "test": "jasmine-node spec/api/ --junitreport"
+    "start": "node index.js",
+    "start:dev": "nodemon index.js",
+    "test": "jasmine-node spec/api/*.spec.js --junitreport",
+    "test:watch": "jasmine-node spec/api/*.spec.js --autotest --watch --growl"
   },
   "author": "",
   "license": "MIT"
