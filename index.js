@@ -1,18 +1,21 @@
-'use strict';
-var Hapi = require('hapi');
+'use strict'
+const Hapi = require('hapi')
 
 // Create a server with a host and port
-var server = new Hapi.Server();
-server.connection({ host: 'localhost', port: 3000 });
+const server = new Hapi.Server()
+server.connection({ 
+  host: 'localhost', 
+  port: 3000 
+})
 
 // Add the route
 server.route({
-    method: 'GET',
-    path: '/hello',
-    handler: function(request, reply) {
-      reply('hello world');
-    }
-  });
+  method: 'GET',
+  path: '/hello',
+  handler: function(request, reply) {
+   reply('hello world')
+  }
+})
 
 // Start the server
-server.start();
+server.start(() => console.log(`Started at: ${server.info.uri}`) )
