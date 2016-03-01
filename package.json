@@ -15,9 +15,9 @@
   },
   "scripts": {
     "start": "node index.js",
-    "start:dev": "nodemon index.js",
+    "start:dev": "nodemon -w ./ index.js",
     "test": "jasmine-node spec/api/*.spec.js --junitreport",
-    "test:watch": "jasmine-node spec/api/*.spec.js --autotest --watch --growl"
+    "test:watch": "jasmine-node ./ --autotest --watch --growl"
   },
   "author": "",
   "license": "MIT"
